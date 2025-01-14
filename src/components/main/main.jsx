@@ -18,7 +18,7 @@ export default function Main() {
                 {!showResult
                     ? <>
                         <div className="my-6 mx-0 text-6xl font-medium p-14">
-                            <p><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-600 via-45% via-red-400 via-80% to-purple-400">Hello, Aadesh!</span></p>
+                            <p><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-600 via-45% via-red-400 via-80% to-purple-400">Hello, Aadesh!</span></p>    {/* use the name u need */}
                         </div>
                         <div className="grid grid-cols-4 gap-3.5 p-5">
                             <div onClick={() => setInput('Suggest beautiful places to visit this winter')} className="h-48 p-3.5 rounded-xl relative bg-gray-100 hover:bg-gray-200">

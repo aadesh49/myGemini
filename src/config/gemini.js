@@ -1,12 +1,9 @@
-// const apiKey = "AIzaSyAgBm-KFXLMQDQsa-ATlUWL8U12uklghg0";
 
 import {
     GoogleGenerativeAI,
-    HarmCategory,
-    HarmBlockThreshold,
   } from "@google/generative-ai";
-  
-  const apiKey = "AIzaSyAgBm-KFXLMQDQsa-ATlUWL8U12uklghg0";
+
+  const apiKey = import.meta.env.VITE_API_KEY;      //use your own api key available free to use by gemini api 
   const genAI = new GoogleGenerativeAI(apiKey);
   
   const model = genAI.getGenerativeModel({
