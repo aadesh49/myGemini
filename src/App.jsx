@@ -1,6 +1,6 @@
 
-import Sidebar from './components/sideBar/SideBar'
-import Main from './components/main/main.jsx'
+import {Sidebar} from './components/sideBar/SideBar.jsx'
+import {Main} from './components/main/main.jsx'
 
 
 function App() {
