@@ -1,5 +1,5 @@
 
-import {Sidebar} from './components/sideBar/SideBar.jsx'
+import {Sidebar} from './components/sideBar/Sidebar.jsx'
 import {Main} from './components/main/main.jsx'
 
 
