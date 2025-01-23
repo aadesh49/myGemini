@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
-import {assets} from '../../assets/assets'
-import { Context } from "../../context/context";
+import {assets} from '../../assets/assets.js'
+import { Context } from "../../context/Context";
 
 export default function Sidebar () {
     const [expand, setExpand] = useState(true);
