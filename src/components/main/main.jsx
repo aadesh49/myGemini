@@ -4,7 +4,7 @@ import { assets } from "../../assets/assets.js";
 import { Context } from "../../context/Context.jsx";
 
 
-export default function Main() {
+function Main() {
 
     const { onSent, recentPrompt, showResult, loading, resultData, setInput, input } = useContext(Context)
     
@@ -96,3 +96,5 @@ export default function Main() {
 
     )
 }
+
+export default Main
