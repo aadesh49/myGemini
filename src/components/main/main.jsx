@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
 import { assets } from "../../assets/assets";
-import { Context } from "../../context/context";
+import { Context } from "../../context/Context";
 
 
 export default function Main() {
